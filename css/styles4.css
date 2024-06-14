@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ }
+ header{
+    width: 100%;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .texto-1{
+   
+font-size: 52px;
+
+ }
+.texto-1 h1{
+color: #ffff;
+}
+ .contenido{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px;
+ }
+ section{
+    height: 50%;
+    padding: 50%;
+ }
+ .elemento-2{
+    color: #ffff;
+    text-align: center;
+    margin: 10%;
+ }
+ .elemento-1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/bienv.jpg");
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 15px;
+}
+
+.nav{
+   width: 80%;
+    height: 100%;
+   align-items: center;
+   margin: 10%;
+}
+.nav a{
+   object-fit: cover;
+    height: 50%;
+    color: #ff0000;
+    text-decoration: none;
+
+}
+.nav a:hover{
+text-decoration: underline;
+color: #ffffff;
+}
+@media (max-width:500px) {
+   header{
+      background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         
+}
+.nav{
+   margin: 10% ;
+}
+.nav a{
+   height: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: 5px;
+    } 
+   .texto-1 h1{
+      font-size: 40px;
+   }
+   .texto-1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: -90px;
+   }
+   body{
+      height: 200vh;
+   }
+   .elemento-1{
+      height: 0;
+      width: 0;
+   }
+   .elemento-2{
+      margin: 10%;
+      height: 100%;
+      width: 100%;
+   }
+}

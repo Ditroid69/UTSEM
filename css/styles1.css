@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ }
+ header{
+    width: 100%;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .regresar {
+    color: #ffff;
+display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 10px;
+ }
+ .regresar a{
+    color: #ffff;
+    object-fit: cover;
+    height: 50%;
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 0;
+   text-decoration: none;
+ }
+
+ .texto-1{
+    margin: 20px 0;
+font-size: 52px;
+
+ }
+.texto-1 h1{
+color: #ffff;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px;
+}
+.fondo{
+    background-image: radial-gradient();
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/menu.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+margin: 10px;
+font-size: 40PX;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+section{
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.usuario{
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 10px;
+}
+.hora{
+    margin-bottom: 10px;
+}
+
+.boton{
+    background-color: rgb(255, 31, 31);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    
+}
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+.boton a:hover{
+  
+color: black;
+}
+.regresar a:hover{
+    color: #ff1111;
+    text-decoration: underline;
+ }
+ @media (max-width:500px){
+    header{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .texto-1{
+        margin: 20px 0;
+    font-size: 30px;
+    
+     }
+    .fondo h1{
+        font-size: 25px;  
+    }
+    .regresar{
+        font-size: 20px;
+        
+    }
+    h2{
+        margin-top: 20px;
+    }
+  }
